@@ -1,2 +1,15 @@
-# kana-garden
-Kana Garden Japanese learning preview: kana, pronunciation, grammar and picture dictionary.
+# Kana Garden 在线试用
+
+在浏览器中学习五十音、发音规则、第一单元课程和生活图画字典。
+
+## 发布
+
+本目录为可直接发布的静态网站。将本目录文件上传到 GitHub 仓库根目录，然后在 Settings → Pages 选择 Deploy from a branch → main → /(root) 保存。无需安装依赖或运行构建。
+
+网站是按需加载音频和插画的版本；本地浏览可运行 `python3 -m http.server 8765`。所有资源用相对路径，可发布到仓库子路径。
+
+学习记录仅保存在当前浏览器，不会自动与 APK 或其他设备同步。清除浏览器数据会删除记录。语音为合成发音，口语为跟读自评。
+
+包含 46 组清音、4 项发音进阶、可配置发音测试、6 课示范课程，以及 12 主题／300 词汇图画字典。
+
+参考资料与来源见 source-notes.md；插画为本项目原创 SVG，没有复制教材图片。
